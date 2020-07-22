@@ -2,19 +2,14 @@
 
 ![badge](https://img.shields.io/badge/Skill-HTML-orange) ![badge](https://img.shields.io/badge/Skill-CSS-blue) ![badge](https://img.shields.io/badge/Skill-JS-yellow) ![badge](https://img.shields.io/badge/Skill-nodejs-green) ![badge](https://img.shields.io/badge/Skill-React-darkblue) ![badge](https://img.shields.io/badge/Skill-MongoDB-darkgreen)
 
-<a href="https://github.com/mathcodes/Employee-Directory/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" /></a>
+![badge](https://img.shields.io/github/commit-activity/m/mathcodes/employeedirectory)
 
 ## Table of Contents
-  - [Description](#description)
-  - [Link](#link)
+  - [Link](#link) 
   - [Licenses](#licenses)
   - [Context](#context)
   - [Usage](#usage)
   - [Contact](#contact)
-
-## Description
-
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
 
 ## Link
 [Employee Tracker](https://jons-employee-tracker.herokuapp.com/)
