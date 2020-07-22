@@ -5,16 +5,11 @@
 <a href="https://github.com/mathcodes/Employee-Directory/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" /></a>
 
 ## Table of Contents
-  - [Description](#description)
   - [Link](#link)
   - [Licenses](#licenses)
   - [Context](#context)
   - [Usage](#usage)
   - [Contact](#contact)
-
-## Description
-
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
 
 ## Link
 [Employee Tracker](https://jons-employee-tracker.herokuapp.com/)
