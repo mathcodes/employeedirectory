@@ -6,11 +6,17 @@ import "./App.css";
 
 function App() {
   const [initialUsers, updateAvailableUsers] = useState([]);
+  // const [sortLastName, updateSortLastName] = useState([]); //state
   const [usersToRender, updateUsersToRender] = useState([]);
 
   useEffect(() => {
     getUsers().then(({ data: { results } }) => updateAvailableUsers(results));
   }, []);
+
+
+  // function handleSortLastName() { 
+    
+  // }
 
   return (
     <div className="App">
@@ -24,6 +30,8 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
 
