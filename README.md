@@ -5,7 +5,7 @@
 ![badge](https://img.shields.io/github/commit-activity/m/mathcodes/employeedirectory)
 
 ## Table of Contents
-  - [Link](#link)
+  - [Link](#link) 
   - [Licenses](#licenses)
   - [Context](#context)
   - [Usage](#usage)
