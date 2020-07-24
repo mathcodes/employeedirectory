@@ -2,7 +2,7 @@
 
 ![badge](https://img.shields.io/badge/Skill-HTML-orange) ![badge](https://img.shields.io/badge/Skill-CSS-blue) ![badge](https://img.shields.io/badge/Skill-JS-yellow) ![badge](https://img.shields.io/badge/Skill-nodejs-green) ![badge](https://img.shields.io/badge/Skill-React-darkblue) ![badge](https://img.shields.io/badge/Skill-MongoDB-darkgreen)
 
-![badge](https://img.shields.io/github/commit-activity/m/mathcodes/employeedirectory)
+![badge](https://img.shields.io/github/commit-activity/m/mathcodes/employeedirectory) 
 
 ## Table of Contents
   - [Link](#link) 
