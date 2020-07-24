@@ -36,7 +36,3 @@ __Jon Christie__
 
 GitHub: [mathcodes](https://github.com/mathcodes) 
 
-
-
-
-
