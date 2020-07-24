@@ -2,7 +2,7 @@
 
 ![badge](https://img.shields.io/badge/Skill-HTML-orange) ![badge](https://img.shields.io/badge/Skill-CSS-blue) ![badge](https://img.shields.io/badge/Skill-JS-yellow) ![badge](https://img.shields.io/badge/Skill-nodejs-green) ![badge](https://img.shields.io/badge/Skill-React-darkblue) ![badge](https://img.shields.io/badge/Skill-MongoDB-darkgreen)
 
-![badge](https://img.shields.io/github/commit-activity/m/mathcodes/employeedirectory)
+[![GitHub commits](https://img.shields.io/github/commits-since/mathcodes/employeedirectory/v1.0.0.svg)](https://GitHub.com/mathcodes/employeedirectory/commit/)
 
 ## Table of Contents
   - [Link](#link) 
@@ -35,8 +35,4 @@ Click on the link above to access the app. Also feel free to clone the app then 
 __Jon Christie__ 
 
 GitHub: [mathcodes](https://github.com/mathcodes) 
-
-
-
-
 
