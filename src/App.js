@@ -6,7 +6,6 @@ import "./App.css";
 
 function App() {
   const [initialUsers, updateAvailableUsers] = useState([]);
-  // const [sortLastName, updateSortLastName] = useState([]); //state
   const [usersToRender, updateUsersToRender] = useState([]);
 
   useEffect(() => {
@@ -14,13 +13,10 @@ function App() {
   }, []);
 
 
-  // function handleSortLastName() { 
-    
-  // }
 
   return (
     <div className="App">
-      <h1>Employee Directory</h1>
+      <h1 className="ED">Employee Directory</h1>
       <p>
         To filter by first name, please begin your search in the user input
         below

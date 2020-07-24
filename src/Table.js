@@ -36,18 +36,18 @@ const Table = ({ users }) => {
               First
             </th>
             <th scope="col">Last</th>
-            <th scope="col">gender</th>
-            <th scope="col">email</th>
-            <th scope="col">phone</th>
-            <th scope="col">cell</th>
-            <th scope="col">city</th>
-            <th scope="col">state</th>
-            <th scope="col">country</th>
-            <th scope="col">postcode</th>
-            <th scope="col">picture</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Cell</th>
+            <th scope="col">City</th>
+            <th scope="col">State</th>
+            <th scope="col">Country</th>
+            <th scope="col">Zipcode</th>
+            <th scope="col">  Picture  </th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className="Table2">
           {sortedUsers.map(
             ({
               location: { city, state, country, postcode },
@@ -73,8 +73,6 @@ const Table = ({ users }) => {
                 <td>
                   <img src={thumbnail} alt="employeePic" />
                 </td>
-
-                <td></td>
               </tr>
             )
           )}

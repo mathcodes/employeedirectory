@@ -2,7 +2,91 @@
   text-align: center;
 }
 
+.table{
+  border: width 4;
+  border-style: double;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 10px;
+}
+
+.App {
+  color:rgba(255, 255, 255, 0.9);
+  background: rgb(250,250,250,.3);
+}
+
+.th{
+  margin-top: 0%;
+  border-style: solid;
+}
+.App {
+  /* background-image: url("https://www.flimp.net/images/leftimga.jpg") ; */
+  background-size: contain;
+  background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Finsights-inteliot%2Ffiles%2F2018%2F10%2FiStock-926689776-1200x794.jpg");
+  margin-top: 0%;
+  padding-top: 120%;
+  padding: 3%;
+  border-style: solid;
+}
+
+.td {
+  border-style: solid;
+  /* background-blend-mode: difference; */
+}
+
+input{
+  width: 50%;
+  line-height: 3;
+}
+
+.value {
+/* height: 55%; */
+
+}
+
+tr{
+  font-weight: 400;
+  }
+
+  
+tr:nth-child(even) {
+  background: rgba(5, 90, 50, 0.9);
+    color: rgb(250, 250, 250, 0.95);
+}
+
+tr:nth-child(even):hover {
+  background: rgba(236, 0, 236, 0.95);
+  color: rgba(255, 255, 255, 0.95);
+  }
+
+
+tr:nth-child(odd):hover {
+  background: rgba(236, 0, 236, 0.95);
+  color: rgba(255, 255, 255, 0.95);
+  }
+ 
+tr:nth-child(odd) {
+  background: rgb(250, 250, 250, 0.95);
+  }
+
+
+tr, .th, th, thead, .thead, .td, td{
+  border-style: solid;
+  border-color: rgb(250,250,250);
+ }
+
+th {
+  background: rgb(5, 90, 50, 0.9);
+  color: white;
+}
+
+tr{
+  width: 90%;
+}
+
 .App-logo {
+  src: url("./logo192.png"); 
   height: 36vmin;
   pointer-events: visibleFill;
 }
@@ -12,6 +96,8 @@
     animation: App-logo-spin infinite 10s linear;
   }
 }
+/* .thead{ */
+
 
 .App-header {
   background-color: #172a52;
@@ -24,19 +110,14 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(180deg);
+    transform: rotate(360deg);
   }
 }
 
-.thead {
-  background-color: #e05700;
-}
