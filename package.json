@@ -1,12 +1,13 @@
 {
   "name": "react-employee-directory",
   "version": "0.1.0",
-  "homepage": "https://.github_mathcodes.github.io/employeedirectory",
+  "homepage": "https://mathcodes.github.io/employeedirectory",
   "private": true,
   "dependencies": {
     "axios": "^0.19.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.2.0"
   },
   "scripts": {
