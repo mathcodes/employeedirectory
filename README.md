@@ -1,6 +1,6 @@
 # Employee Directory
 
-![badge](https://img.shields.io/badge/Skill-HTML-orange) ![badge](https://img.shields.io/badge/Skill-CSS-blue) ![badge](https://img.shields.io/badge/Skill-JS-yellow) ![badge](https://img.shields.io/badge/Skill-nodejs-green) ![badge](https://img.shields.io/badge/Skill-React-darkblue) ![badge](https://img.shields.io/badge/Skill-MongoDB-darkgreen)
+![badge](https://img.shields.io/badge/Skill-HTML-orange) ![badge](https://img.shields.io/badge/Skill-CSS-blue) ![badge](https://img.shields.io/badge/Skill-JS-yellow) ![badge](https://img.shields.io/badge/Skill-nodejs-green) ![badge](https://img.shields.io/badge/Skill-React-darkblue) 
 
 [![GitHub commits](https://img.shields.io/github/commits-since/mathcodes/employeedirectory/v1.0.0.svg)](https://GitHub.com/mathcodes/employeedirectory/commit/)
 
@@ -12,7 +12,7 @@
   - [Contact](#contact)
 
 ## Link
-[Employee Directory](https://jonsemployeedirectory.herokuapp.com//)
+[Employee Directory](https://jonsemployeedirectory.herokuapp.com/)
 
 ## Licenses
 <a href="https://opensource.org/licenses/MIT">
