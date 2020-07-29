@@ -30,8 +30,8 @@
   border-style: solid;
 }
 
-tr, .th, th, thead, .thead, .td, td {
-    opacity: 85%;
+tr, .th, th, thead, .thead, .td, td, header {
+    opacity: 100%;
     }
     
 
@@ -114,7 +114,7 @@ tr, .th, th, thead, .thead, .td, td {
 
  .form-control {
     display: block;
-    width: 100%;
+    width: 90%;
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -141,4 +141,38 @@ tr, .th, th, thead, .thead, .td, td {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.input-group {
+    position: absolute;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 90%;
+    color: black;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 5px;
+    background: #030303;
+    color: #ffffff;
+    height: inherit;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.header{
+      background-image: url("./folderG72.png");
+      text-shadow: 25pt;
+      -webkit-text-stroke: .5px wheat;
+      font-size: x-large;
+      font-weight: bolder;
+    color: rgb(58, 43, 15);
+    background-repeat: no-repeat;
+
 }

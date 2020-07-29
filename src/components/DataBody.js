@@ -29,7 +29,7 @@ const DataBody = () => {
                 />
               </td>
               <td data-th="Name" className="name-cell align-middle">
-                {name.first} {name.last}
+                {name.first} <br></br>{name.last}
               </td>
               <td data-th="Phone" className="align-middle">
                 {phone}
