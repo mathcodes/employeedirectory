@@ -66,7 +66,7 @@ const DataArea = () => {
     };
     const sortedUsers = developerState.filteredUsers.sort(compareFnc);
     const updatedHeadings = developerState.headings.map(elem => {
-           elem.order = elem.name === heading ? currentOrder : elem.order;
+      elem.order = elem.name === heading ? currentOrder : elem.order;
       return elem;
     });
 
