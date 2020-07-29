@@ -17,6 +17,10 @@ function Nav() {
       >
         <span className="navbar-toggler-icon" />
       </button>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
       <div className="collapse navbar-collapse row" id="navbarNav">
         {/* <div className="input-group col-8">
           <SearchDOB />

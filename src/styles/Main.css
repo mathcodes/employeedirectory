@@ -37,14 +37,11 @@ tr, .th, th, thead, .thead, .td, td, header {
 
 
 img{
-  width: 60%;
+  width: 50%;
   text-align: right;
   margin-top: 8%;
 }
-img:hover{
-  width: 85%;
-  text-align: right;
-}
+
 
 .datatable .col {
   cursor: pointer;
@@ -169,12 +166,19 @@ tr, .th, th, thead, .thead, .td, td {
 .header{
       background-image: url("./folderG72.png");
       text-shadow: 25pt;
-      -webkit-text-stroke: .5px wheat;
+      -webkit-text-stroke: .5px #444444;
       font-size: x-large;
       font-weight: bolder;
-    color: rgb(58, 43, 15);
+    color:yellowgreen;
     background-repeat: no-repeat;
 
+}
+
+.align-middle:hover, .tr:hover, .td:hover{
+  color:yellowgreen;
+  font-size:120%;
+  border-image-width: 15px;
+  background-color: black;
 }
 
 #myBtn {
@@ -196,3 +200,11 @@ tr, .th, th, thead, .thead, .td, td {
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+a:hover {
+    color: yellowgreen; 
+}
+a {
+      color: #fff; 
+
+}
+
