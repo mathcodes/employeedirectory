@@ -11,8 +11,8 @@ const DataArea = () => {
     order: "descend",
     filteredUsers: [],
     headings: [
-      { name: "Image", width: "10%", order: "descend" },
-      { name: "name", width: "10%", order: "descend" },
+      { name: "Image", width: "5%", order: "descend" },
+      { name: "name", width: "15%", order: "descend" },
       { name: "phone", width: "20%", order: "descend" },
       { name: "email", width: "20%", order: "descend" },
       { name: "dob", width: "10%", order: "descend" }
@@ -30,10 +30,10 @@ const DataArea = () => {
     } else {
       currentOrder = "descend";
     }
-
+ // account for missing values
     const compareFnc = (a, b) => {
       if (currentOrder === "ascend") {
-        // account for missing values
+       
         if (a[heading] === undefined) {
           return 1;
         } else if (b[heading] === undefined) {
@@ -47,14 +47,14 @@ const DataArea = () => {
         } else {
           return a[heading].localeCompare(b[heading]);
         }
-      } else {
-        // account for missing values
+      } 
+      
+      else {
         if (a[heading] === undefined) {
           return 1;
         } else if (b[heading] === undefined) {
           return -1;
         }
-        // numerically
         else if (heading === "name") {
           return b[heading].first.localeCompare(a[heading].first);
         }else if (heading === "dob") {
@@ -90,7 +90,6 @@ const DataArea = () => {
     setDeveloperState({ ...developerState, filteredUsers: filteredList });
   };
 
-  ///https://stackoverflow.com/questions/53120972/how-to-call-loading-function-with-react-useeffect-only-once
   useEffect(() => {
     API.getUsers().then(results => {
       console.log(results.data.results);
@@ -101,6 +100,7 @@ const DataArea = () => {
       });
     });
   }, []);
+
 
   return (
     <DataAreaContext.Provider

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-//export below gets all users (getUSers)
+//export below gets all users (getUsers)
 export default {
   getUsers: function() {
 

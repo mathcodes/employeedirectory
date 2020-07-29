@@ -23,7 +23,7 @@
     opacity: 90%;
     width: 100%;
     text-align: center;
-    /* border-bottom: 5px solid #DB162F; */
+    border-bottom: 5px solid rgb(0,0,0,0);
     /* margin-bottom: 10px; */
 }
 
@@ -95,6 +95,7 @@ tr, .th, th, thead, .thead, .td, td {
     /* border-style: solid; */
     /* border-color: rgb(250,250,250); */
     /* background: green;} */
+    text-transform: capitalize;
 
 }
 
@@ -155,3 +156,11 @@ img:hover{
   }
 }
 
+.searchbox button {
+    border: 1px solid #101D42;
+}
+
+.searchbox button:hover {
+    background-color: #101D42;
+    color: #555555;
+}

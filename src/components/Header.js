@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/Header.css";
 
+// verbiage for the main page
 function Header () {
     return (
       <div className="header">
