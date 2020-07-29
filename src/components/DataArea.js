@@ -85,6 +85,7 @@ const DataArea = () => {
     if(values.indexOf(filter.toLowerCase()) !== -1){
       return item
     };
+    return item
     });
 
     setDeveloperState({ ...developerState, filteredUsers: filteredList });

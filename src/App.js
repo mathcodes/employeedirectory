@@ -1,5 +1,5 @@
-import React, {TOJSON} from "react";
-import Main from "./components/Main";
+import React, {TOJSON} from "./../node_modules/react";
+import Main from "./components/Main.js";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 
