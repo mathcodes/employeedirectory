@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import DataTable from "./DataTable";
 import Nav from "./Nav";
@@ -12,11 +11,11 @@ const DataArea = () => {
     order: "descend",
     filteredUsers: [],
     headings: [
-      { name: "Image", width: "5%", order: "descend" },
-      { name: "Name", width: "15%", order: "descend" },
-      { name: "Phone", width: "20%", order: "descend" },
-      { name: "Email", width: "20%", order: "descend" },
-      { name: "DOB", width: "10%", order: "descend" }
+      { name: "Image", width: "10%", order: "descend" },
+      { name: "name", width: "10%", order: "descend" },
+      { name: "phone", width: "20%", order: "descend" },
+      { name: "email", width: "20%", order: "descend" },
+      { name: "dob", width: "10%", order: "descend" }
     ]
   });
 
@@ -91,7 +90,8 @@ const DataArea = () => {
     setDeveloperState({ ...developerState, filteredUsers: filteredList });
   };
 
-useEffect(() => {
+  ///https://stackoverflow.com/questions/53120972/how-to-call-loading-function-with-react-useeffect-only-once
+  useEffect(() => {
     API.getUsers().then(results => {
       console.log(results.data.results);
       setDeveloperState({

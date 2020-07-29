@@ -12,7 +12,7 @@
   - [Contact](#contact)
 
 ## Link
-[Employee Tracker](https://jons-employee-tracker.herokuapp.com/)
+[Employee Directory](https://jonsemployeedirectory.herokuapp.com//)
 
 ## Licenses
 <a href="https://opensource.org/licenses/MIT">
