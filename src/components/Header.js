@@ -5,7 +5,7 @@ function Header () {
     return (
       <div className="header">
         <h1>Employee Directory</h1>
-        <p>Click on carrots to filter by heading or use the search box to narrow your results.</p>
+        <p>Click on a header to sort the table by the corresponding column, or search by name using the search box provided.</p>
       </div>
     )
   }
