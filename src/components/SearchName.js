@@ -12,11 +12,16 @@ const SearchName = () => {
             <span className="input-group-text" id="">
               Search
             </span>
-      </div>
-      <input type="text" className="form-control"   onChange={e => context.handleSearchChange(e)}/>
-      </div>
+          </div>
+          <input
+          className="form-control mr-sm-2"
+          type="search"
+          placeholder="name"
+          aria-label="Search"
+          onChange={e => context.handleSearchChange(e)}
+        />
+        </div>
     </div>
   );
-};
+}
 export default SearchName;
-
