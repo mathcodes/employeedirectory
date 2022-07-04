@@ -11,8 +11,9 @@
   - [Usage](#usage)
   - [Contact](#contact)
 
-## Link
-[Employee Directory](https://jonsemployeedirectory.herokuapp.com/)
+[LIVE](https://jonsemployeedirectory.herokuapp.com/)
+
+<img src="https://raw.githubusercontent.com/mathcodes/employeedirectory/master/public/ED1.png" height="200px" /> <img src="https://raw.githubusercontent.com/mathcodes/employeedirectory/master/public/ED2.png" height="200px" /> <img src="https://raw.githubusercontent.com/mathcodes/employeedirectory/master/public/ED3.png" height="200px" />
 
 ## Licenses
 <a href="https://opensource.org/licenses/MIT">
