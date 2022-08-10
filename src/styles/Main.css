@@ -118,7 +118,7 @@ tr, .th, th, thead, .thead, .td, td {
     font-weight: 400;
     line-height: 4;
     color: black;
-    background-color: yellowgreen;
+    background-color: #9acd32;
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;
