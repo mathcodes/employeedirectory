@@ -94,7 +94,7 @@ tr:nth-child(odd) {
 tr, .th, th, thead, .thead, .td, td {
     /* border-style: solid; */
     /* border-color: rgb(250,250,250); */
-    /* background: green;} */
+    /* background: #4faeba;} */
     text-transform: capitalize;
 
 }

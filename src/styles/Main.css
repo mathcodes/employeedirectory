@@ -36,12 +36,11 @@ tr, .th, th, thead, .thead, .td, td, header {
     
 
 
-img{
-  width: 50%;
+img {
+  /* width: 60%; */
   text-align: right;
-  margin-top: 8%;
-}
-
+  /* margin-top: 8%; */
+  }
 
 .datatable .col {
   cursor: pointer;
@@ -164,18 +163,19 @@ tr, .th, th, thead, .thead, .td, td {
 }
 
 .header{
-      background-image: url("./folderG72.png");
       text-shadow: 25pt;
       -webkit-text-stroke: .5px #444444;
       font-size: x-large;
       font-weight: bolder;
-    color:yellowgreen;
+    color: #4faeba;
     background-repeat: no-repeat;
 
 }
 
+ 
+
 .align-middle:hover, .tr:hover, .td:hover{
-  color:yellowgreen;
+  color: #4faeba;
   font-size:120%;
   border-image-width: 15px;
   background-color: black;
@@ -201,7 +201,7 @@ tr, .th, th, thead, .thead, .td, td {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 a:hover {
-    color: yellowgreen; 
+    color:  #4faeba; 
 }
 a {
       color: #fff; 
