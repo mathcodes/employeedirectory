@@ -6,7 +6,7 @@
 
 [![GitHub commits](https://img.shields.io/github/commits-since/mathcodes/employeedirectory/v1.0.0.svg)](https://GitHub.com/mathcodes/employeedirectory/commit/)
 
-## Table of Contents
+## Table of Contents 
   - [Link](#link) 
   - [Licenses](#licenses)
   - [Context](#context)
