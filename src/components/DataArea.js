@@ -6,7 +6,6 @@ import "../styles/DataArea.css";
 import "../styles/Main.css";
 import DataAreaContext from "../utils/DataAreaContext";
 
-
 const DataArea = () => {
   const [developerState, setDeveloperState] = useState({
     users: [],
@@ -20,6 +19,7 @@ const DataArea = () => {
       { name: "dob", width: "20%", order: "descend" }
     ]
   });
+
   const handleSort = heading => {
     let currentOrder = developerState.headings
       .filter(elem => elem.name === heading)
@@ -31,6 +31,7 @@ const DataArea = () => {
     } else {
       currentOrder = "descend";
     }
+
     const compareFnc = (a, b) => {
       if (currentOrder === "ascend") {
         if (a[heading] === undefined) {
