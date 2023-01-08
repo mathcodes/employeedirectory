@@ -1,12 +1,12 @@
 # Employee Directory
 
-## NOTE: UI/UX upgrade coming soon!
+## NOTE: UI/UX upgrade coming soon! 
 
 ![badge](https://img.shields.io/badge/Skill-HTML-orange) ![badge](https://img.shields.io/badge/Skill-CSS-blue) ![badge](https://img.shields.io/badge/Skill-JS-yellow) ![badge](https://img.shields.io/badge/Skill-nodejs-green) ![badge](https://img.shields.io/badge/Skill-React-darkblue) 
 
 [![GitHub commits](https://img.shields.io/github/commits-since/mathcodes/employeedirectory/v1.0.0.svg)](https://GitHub.com/mathcodes/employeedirectory/commit/)
 
-## Table of Contents 
+## Table of Contents
   - [Link](#link) 
   - [Licenses](#licenses)
   - [Context](#context)
