@@ -1,6 +1,7 @@
 # Employee Directory
 
-## NOTE: UI/UX upgrade coming...
+## NOTE: UI/UX upgrade coming soon! 
+
 
 ![badge](https://img.shields.io/badge/Skill-HTML-orange) ![badge](https://img.shields.io/badge/Skill-CSS-blue) ![badge](https://img.shields.io/badge/Skill-JS-yellow) ![badge](https://img.shields.io/badge/Skill-nodejs-green) ![badge](https://img.shields.io/badge/Skill-React-darkblue) 
 
